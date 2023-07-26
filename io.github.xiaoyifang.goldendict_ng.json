@@ -84,7 +84,7 @@
                     "tag": "debian/4.4.3-9",
                     "x-checker-data": {
                         "type": "git",
-                        "tag-pattern": "^debian/([\\d.-]+)$",
+                        "tag-pattern": "^debian\\\/([\\d.-]+)$",
                         "sort-tags": false
                     },
                     "commit": "1330077ff49b82a409758e5e1fe4ff95f7b6b146"
