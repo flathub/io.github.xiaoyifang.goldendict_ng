@@ -160,7 +160,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/xiaoyifang/goldendict-ng/",
-                    "commit": "ff83be8aa68839096f1de52de2a65e9a68f20408",
+                    "commit": "82d7f1cf76765e301547533cbbf9d6f5e32a356b",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/xiaoyifang/goldendict-ng/releases/latest",
