@@ -151,7 +151,8 @@
             "build-commands": [
                 "mkdir -p /app/lib/ffmpeg",
                 "install -Dm644 redist/icons/goldendict.png ${FLATPAK_DEST}/share/icons/hicolor/256x256/apps/${FLATPAK_ID}.png",
-                "desktop-file-edit --set-icon \"${FLATPAK_ID}\" redist/${FLATPAK_ID}.desktop"
+                "desktop-file-edit --set-icon \"${FLATPAK_ID}\" redist/${FLATPAK_ID}.desktop",
+                "sed --in-place \"44i <releases> <release version=\\\"`git describe`\\\" date=\\\"`date --iso-8601`\\\"\/> <\/releases>\" redist/io.github.xiaoyifang.goldendict_ng.metainfo.xml"
             ],
             "cleanup": [
                 "/share/pixmaps"
@@ -160,14 +161,13 @@
                 {
                     "type": "git",
                     "url": "https://github.com/xiaoyifang/goldendict-ng/",
-                    "commit": "ff83be8aa68839096f1de52de2a65e9a68f20408",
+                    "commit": "82d7f1cf76765e301547533cbbf9d6f5e32a356b",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/xiaoyifang/goldendict-ng/releases/latest",
                         "tag-query": ".tag_name",
                         "version-query": ".tag_name | sub(\"^v(?<version_str>[\\\\d.]*)-.*\"; \"\\(.version_str)\")"
-                    },
-                    "tag": "v23.11.08-BeginningOfWinter.ff83be8a"
+                    }
                 }
             ]
         }
