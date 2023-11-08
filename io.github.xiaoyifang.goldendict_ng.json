@@ -166,8 +166,7 @@
                         "url": "https://api.github.com/repos/xiaoyifang/goldendict-ng/releases/latest",
                         "tag-query": ".tag_name",
                         "version-query": ".tag_name | sub(\"^v(?<version_str>[\\\\d.]*)-.*\"; \"\\(.version_str)\")"
-                    },
-                    "tag": "v23.11.08-BeginningOfWinter.ff83be8a"
+                    }
                 }
             ]
         }
