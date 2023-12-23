@@ -1,16 +1,16 @@
 {
     "app-id": "io.github.xiaoyifang.goldendict_ng",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.5",
+    "runtime-version": "6.6",
     "sdk": "org.kde.Sdk",
     "command": "goldendict",
     "base": "io.qt.qtwebengine.BaseApp",
-    "base-version": "6.5",
+    "base-version": "6.6",
     "add-extensions": {
         "org.freedesktop.Platform.ffmpeg-full": {
             "directory": "lib/ffmpeg",
             "add-ld-path": ".",
-            "version": "22.08",
+            "version": "23.08",
             "no-autodownload": true,
             "autodelete": false
         }
