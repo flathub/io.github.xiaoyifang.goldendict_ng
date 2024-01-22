@@ -161,14 +161,14 @@
                 {
                     "type": "git",
                     "url": "https://github.com/xiaoyifang/goldendict-ng/",
-                    "commit": "b0086d5c2df2d9c52d005cd51ab2505ebff78d09",
+                    "commit": "3dddb3be5510875927e5cb1a8abb3948a5d1f258",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/xiaoyifang/goldendict-ng/releases/latest",
                         "tag-query": ".tag_name",
                         "version-query": ".tag_name | sub(\"^v(?<version_str>[\\\\d.]*)-.*\"; \"\\(.version_str)\")"
                     },
-                    "tag": "v23.12.07-HeavySnow.b0086d5c"
+                    "tag": "v24.01.22-LoongYear.3dddb3be"
                 }
             ]
         }
