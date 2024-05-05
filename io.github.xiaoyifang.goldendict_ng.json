@@ -161,14 +161,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/xiaoyifang/goldendict-ng/",
-                    "commit": "3dddb3be5510875927e5cb1a8abb3948a5d1f258",
-                    "x-checker-data": {
-                        "type": "json",
-                        "url": "https://api.github.com/repos/xiaoyifang/goldendict-ng/releases/latest",
-                        "tag-query": ".tag_name",
-                        "version-query": ".tag_name | sub(\"^v(?<version_str>[\\\\d.]*)-.*\"; \"\\(.version_str)\")"
-                    },
-                    "tag": "v24.01.22-LoongYear.3dddb3be"
+                    "commit": "9006c50b5ee8ac8364ae257b4237f9dd9d10a7c4",
                 }
             ]
         }
