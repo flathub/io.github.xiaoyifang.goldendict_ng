@@ -129,8 +129,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/openzim/libzim.git",
-                    "tag": "9.1.0",
-                    "commit": "ff3f44d7e6685e92ec756d181df25889122f2154",
+                    "tag": "9.2.1",
+                    "commit": "0cdf6f63656b11d6decb1d90299f0d8c0998946d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 20193,
@@ -161,14 +161,14 @@
                 {
                     "type": "git",
                     "url": "https://github.com/xiaoyifang/goldendict-ng/",
-                    "commit": "3dddb3be5510875927e5cb1a8abb3948a5d1f258",
+                    "commit": "ecd1138cfa7e888f6c113236634e555c3c7b9dc9",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/xiaoyifang/goldendict-ng/releases/latest",
                         "tag-query": ".tag_name",
                         "version-query": ".tag_name | sub(\"^v(?<version_str>[\\\\d.]*)-.*\"; \"\\(.version_str)\")"
                     },
-                    "tag": "v24.01.22-LoongYear.3dddb3be"
+                    "tag": "v24.05.05-LiXia.ecd1138c"
                 }
             ]
         }
