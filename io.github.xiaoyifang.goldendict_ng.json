@@ -32,8 +32,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/BYVoid/OpenCC.git",
-                    "tag": "ver.1.1.8",
-                    "commit": "562ff8934dc8e0994bd34f0079934715b312476c",
+                    "tag": "ver.1.1.9",
+                    "commit": "556ed22496d650bd0b13b6c163be9814637970ae",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^ver.([\\d.]+)$",
