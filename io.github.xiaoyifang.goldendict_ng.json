@@ -161,14 +161,14 @@
                 {
                     "type": "git",
                     "url": "https://github.com/xiaoyifang/goldendict-ng/",
-                    "commit": "ecd1138cfa7e888f6c113236634e555c3c7b9dc9",
+                    "commit": "316ec900cd46bd74bb110dcbbd6283a34f144dab",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/xiaoyifang/goldendict-ng/releases/latest",
                         "tag-query": ".tag_name",
                         "version-query": ".tag_name | sub(\"^v(?<version_str>[\\\\d.]*)-.*\"; \"\\(.version_str)\")"
                     },
-                    "tag": "v24.05.05-LiXia.ecd1138c"
+                    "tag": "v24.09.0-Release.316ec900"
                 }
             ]
         }
