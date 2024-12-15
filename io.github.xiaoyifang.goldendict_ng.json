@@ -79,18 +79,19 @@
             ],
             "sources": [
                 {
-                    "type": "git",
-                    "url": "https://salsa.debian.org/debian/eb.git",
-                    "tag": "debian/4.4.3-14",
+                    "type": "archive",
+                    "url": "https://salsa.debian.org/debian/eb/-/archive/debian/4.4.3-14.3/eb-debian-4.4.3-14.3.tar.gz",
+                    "sha256": "406e08a103f359ca5f5952f3d7b76fe54514ce6013645008571c4f8af73e1961",
                     "x-checker-data": {
-                        "type": "git",
-                        "tag-pattern": "^debian\\/4.4.3-(\\d+)$"
-                    },
-                    "commit": "58570b89141bd19684544b41efc94a3586adf0b9"
+                        "type": "anitya",
+                        "project-id": 155542,
+                        "url-template": "https://salsa.debian.org/debian/eb/-/archive/debian/$version/eb-debian-$version.tar.gz"
+                    }
                 },
                 {
                     "type": "shell",
                     "commands": [
+                        "git apply debian/patches/0002-gcc14-fix.patch",
                         "cp -p /usr/share/automake-*/config.{sub,guess} ."
                     ]
                 }
@@ -108,7 +109,7 @@
                 {
                     "type": "archive",
                     "url": "https://oligarchy.co.uk/xapian/1.4.27/xapian-core-1.4.27.tar.xz",
-                    "sha256": "30d3518172084f310dab86d262b512718a7f9a13635aaa1a188e61dc26b2288c",
+                    "sha256": "bcbc99cfbf16080119c2571fc296794f539bd542ca3926f17c2999600830ab61",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 15919,
