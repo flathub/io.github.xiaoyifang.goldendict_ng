@@ -1,16 +1,16 @@
 {
     "app-id": "io.github.xiaoyifang.goldendict_ng",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.7",
+    "runtime-version": "6.8",
     "sdk": "org.kde.Sdk",
     "command": "goldendict",
     "base": "io.qt.qtwebengine.BaseApp",
-    "base-version": "6.7",
+    "base-version": "6.8",
     "add-extensions": {
         "org.freedesktop.Platform.ffmpeg-full": {
             "directory": "lib/ffmpeg",
             "add-ld-path": ".",
-            "version": "23.08",
+            "version": "24.08",
             "no-autodownload": true,
             "autodelete": false
         }
@@ -107,8 +107,13 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://oligarchy.co.uk/xapian/1.4.23/xapian-core-1.4.23.tar.xz",
-                    "sha256": "30d3518172084f310dab86d262b512718a7f9a13635aaa1a188e61dc26b2288c"
+                    "url": "https://oligarchy.co.uk/xapian/1.4.27/xapian-core-1.4.27.tar.xz",
+                    "sha256": "30d3518172084f310dab86d262b512718a7f9a13635aaa1a188e61dc26b2288c",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 15919,
+                        "url-template": "https://oligarchy.co.uk/xapian/$version/xapian-core-$version.tar.xz"
+                    }
                 }
             ]
         },
