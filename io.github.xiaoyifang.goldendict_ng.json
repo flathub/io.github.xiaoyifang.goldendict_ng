@@ -157,8 +157,7 @@
             "build-commands": [
                 "mkdir -p /app/lib/ffmpeg",
                 "install -Dm644 redist/icons/goldendict.png ${FLATPAK_DEST}/share/icons/hicolor/256x256/apps/${FLATPAK_ID}.png",
-                "desktop-file-edit --set-icon \"${FLATPAK_ID}\" redist/${FLATPAK_ID}.desktop",
-                "sed --in-place \"46i <release version=\\\"`date +%y.%m.%d`\\\" date=\\\"`date --iso-8601`\\\"/>\" redist/io.github.xiaoyifang.goldendict_ng.metainfo.xml"
+                "desktop-file-edit --set-icon \"${FLATPAK_ID}\" redist/${FLATPAK_ID}.desktop"
             ],
             "cleanup": [
                 "/share/pixmaps"
@@ -167,14 +166,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/xiaoyifang/goldendict-ng/",
-                    "commit": "ca9dd133206d8825d0e27f792874fd5716e8af5e",
-                    "x-checker-data": {
-                        "type": "json",
-                        "url": "https://api.github.com/repos/xiaoyifang/goldendict-ng/releases/latest",
-                        "tag-query": ".tag_name",
-                        "version-query": ".tag_name | sub(\"^v(?<version_str>[\\\\d.]*)-.*\"; \"\\(.version_str)\")"
-                    },
-                    "tag": "v24.09.1-Release.ca9dd133"
+                    "commit": "214573d113cdf58605c9127172f5ddf253e39d16"
                 }
             ]
         }
