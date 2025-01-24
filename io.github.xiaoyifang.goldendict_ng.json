@@ -167,14 +167,14 @@
                 {
                     "type": "git",
                     "url": "https://github.com/xiaoyifang/goldendict-ng/",
-                    "commit": "ca9dd133206d8825d0e27f792874fd5716e8af5e",
+                    "commit": "9caa16834272cc7f926f2b6f9a8b4abea9809e41",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/xiaoyifang/goldendict-ng/releases/latest",
                         "tag-query": ".tag_name",
                         "version-query": ".tag_name | sub(\"^v(?<version_str>[\\\\d.]*)-.*\"; \"\\(.version_str)\")"
                     },
-                    "tag": "v24.09.1-Release.ca9dd133"
+                    "tag": "v25.2.0-Release.9caa1683"
                 }
             ]
         }
