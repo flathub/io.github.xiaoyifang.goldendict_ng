@@ -1,11 +1,11 @@
 {
     "app-id": "io.github.xiaoyifang.goldendict_ng",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.8",
+    "runtime-version": "6.9",
     "sdk": "org.kde.Sdk",
     "command": "goldendict",
     "base": "io.qt.qtwebengine.BaseApp",
-    "base-version": "6.8",
+    "base-version": "6.9",
     "add-extensions": {
         "org.freedesktop.Platform.ffmpeg-full": {
             "directory": "lib/ffmpeg",
@@ -15,6 +15,9 @@
             "autodelete": false
         }
     },
+    "cleanup-commands": [
+        "/app/cleanup-BaseApp.sh"
+    ],
     "finish-args": [
         "--share=ipc",
         "--socket=x11",
@@ -85,6 +88,7 @@
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 155542,
+                        "stable-only": false,
                         "url-template": "https://salsa.debian.org/debian/eb/-/archive/debian/$version/eb-debian-$version.tar.gz"
                     }
                 },
