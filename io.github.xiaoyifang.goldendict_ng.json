@@ -150,9 +150,26 @@
             ]
         },
         {
+            "name": "fmt",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DCMAKE_BUILD_TYPE=Release",
+                "-DFMT_TEST=OFF"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/fmtlib/fmt.git",
+                    "tag": "12.1.0",
+                    "commit": "407c905e45ad75fc29bf0f9bb7c5c2fd3475976f"
+                }
+            ]
+        },
+        {
             "name": "goldendict-ng",
             "buildsystem": "cmake-ninja",
             "config-opts": [
+                "-DCMAKE_BUILD_TYPE=Release",
                 "-DWITH_XAPIAN=ON",
                 "-DWITH_ZIM=ON",
                 "-DWITH_FFMPEG_PLAYER=ON",
@@ -170,7 +187,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/xiaoyifang/goldendict-ng/",
-                    "commit": "673d1b905e4844375125d6e0dda99342636662ac"
+                    "commit": "2c9beb32d9fbd751908eec340db8cf36ea6ab013"
                 }
             ]
         }
