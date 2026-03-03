@@ -6,15 +6,6 @@
     "command": "goldendict",
     "base": "io.qt.qtwebengine.BaseApp",
     "base-version": "6.10",
-    "add-extensions": {
-        "org.freedesktop.Platform.ffmpeg-full": {
-            "directory": "lib/ffmpeg",
-            "add-ld-path": ".",
-            "version": "25.08",
-            "no-autodownload": true,
-            "autodelete": false
-        }
-    },
     "cleanup-commands": [
         "/app/cleanup-BaseApp.sh"
     ],
@@ -142,7 +133,6 @@
                 "-DWITH_EPWING_SUPPORT=ON"
             ],
             "build-commands": [
-                "mkdir -p /app/lib/ffmpeg",
                 "install -Dm644 redist/icons/goldendict.png ${FLATPAK_DEST}/share/icons/hicolor/256x256/apps/${FLATPAK_ID}.png",
                 "desktop-file-edit --set-icon \"${FLATPAK_ID}\" redist/${FLATPAK_ID}.desktop"
             ],
