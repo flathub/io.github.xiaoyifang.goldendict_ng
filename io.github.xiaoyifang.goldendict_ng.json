@@ -85,8 +85,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://oligarchy.co.uk/xapian/1.5.2/xapian-core-1.5.2.tar.xz",
-                    "sha256": "bf1842f3dd79750e4b265a2346433a8640849e6a1a28470e32edcde9d616e37f",
+                    "url": "https://oligarchy.co.uk/xapian/2.0.0/xapian-core-2.0.0.tar.xz",
+                    "sha256": "6cea3f49952a47224439a40bdb3608f928d121ad8721b9921cc42802d548ecf8",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 15919,
