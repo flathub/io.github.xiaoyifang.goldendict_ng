@@ -123,6 +123,29 @@
             ]
         },
         {
+            "name": "tomlplusplus",
+            "buildsystem": "meson",
+            "builddir": true,
+            "cleanup": [
+                "/include",
+                "/lib/pkgconfig",
+                "/lib/cmake"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/marzer/tomlplusplus.git",
+                    "tag": "v3.4.0",
+                    "commit": "30172438cee64926dc41fdd9c11fb3ba5b2ba9de",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^v([\\d.]+)$",
+                        "version-scheme": "semantic"
+                    }
+                }
+            ]
+        },
+        {
             "name": "goldendict-ng",
             "buildsystem": "cmake-ninja",
             "config-opts": [
@@ -143,7 +166,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/xiaoyifang/goldendict-ng/",
-                    "commit": "fce2b872869173f28f5b94cc417336348b8a0dc9"
+                    "commit": "c5e2abc1000fa269768bd97e76d9c8f09c48a5c0"
                 }
             ]
         }
