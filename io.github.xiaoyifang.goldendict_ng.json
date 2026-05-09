@@ -166,11 +166,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/xiaoyifang/goldendict-ng/",
-                    "commit": "87b8c6c682e3992f396103724f0d0d549739fc68",
+                    "commit": "0cf73413941eda10c199fe5f03b9848f9e1de8af",
                     "x-checker-data": {
                         "type": "git",
                         "branch": "master"
-                    }
+                    },
+                    "tag": "v23.07.23"
                 }
             ]
         }
