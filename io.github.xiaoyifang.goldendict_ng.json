@@ -169,7 +169,9 @@
                     "commit": "87b8c6c682e3992f396103724f0d0d549739fc68",
                     "x-checker-data": {
                         "type": "git",
-                        "branch": "master"
+                        "branch": "master",
+                        "tag-regexp": "^v(\\d+\\.\\d+\\.\\d+)-Release\\..*$",
+                        "version-scheme": "semantic"
                     }
                 }
             ]
