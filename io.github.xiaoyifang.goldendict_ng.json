@@ -166,7 +166,11 @@
                 {
                     "type": "git",
                     "url": "https://github.com/xiaoyifang/goldendict-ng/",
-                    "commit": "87b8c6c682e3992f396103724f0d0d549739fc68"
+                    "commit": "87b8c6c682e3992f396103724f0d0d549739fc68",
+                    "x-checker-data": {
+                        "type": "git",
+                        "branch": "master"
+                    }
                 }
             ]
         }
