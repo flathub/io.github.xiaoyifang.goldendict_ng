@@ -168,10 +168,10 @@
                     "url": "https://github.com/xiaoyifang/goldendict-ng/",
                     "commit": "87b8c6c682e3992f396103724f0d0d549739fc68",
                     "x-checker-data": {
-                        "type": "json",
-                        "url": "https://api.github.com/repos/xiaoyifang/goldendict-ng/commits/master",
-                        "version-query": ".sha",
-                        "timestamp-query": ".commit.committer.date"
+                         "type": "github-commits",
+                        "user": "xiaoyifang",
+                        "repo": "goldendict-ng",
+                        "branch": "master"
                     }
                 }
             ]
