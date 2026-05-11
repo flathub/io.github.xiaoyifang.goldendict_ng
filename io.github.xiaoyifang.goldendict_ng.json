@@ -169,7 +169,7 @@
                     "commit": "ea1a98034452393f480ede0a94e78df1a20ab4de",
                     "x-checker-data": {
                         "type": "git",
-                        "tag-pattern": "^v([\\d\\.]+)[-_]Release\\.[a-f0-9]+$",
+                        "tag-pattern": "^v([\\d\\.]+)(?:[-_]Release\\.[a-f0-9]+)?$",
                         "is-main-source": true,
                         "version-scheme": "semantic"
                     },
