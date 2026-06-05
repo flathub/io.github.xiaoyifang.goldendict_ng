@@ -172,8 +172,7 @@
                         "tag-pattern": "^v([\\d\\.]+)(?:[-_]Release\\.[a-f0-9]+)?$",
                         "is-main-source": true,
                         "version-scheme": "semantic"
-                    },
-                    "tag": "v26.5.7"
+                    }
                 }
             ]
         }
