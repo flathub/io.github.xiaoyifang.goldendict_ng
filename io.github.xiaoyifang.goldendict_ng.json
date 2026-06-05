@@ -166,7 +166,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/xiaoyifang/goldendict-ng.git",
-                    "commit": "626905a8765102e230be9df587fd51c2dfd25453",
+                    "commit": "dfaa179b9537cd2b0ac7e2b1573598c8560b0035",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d\\.]+)(?:[-_]Release\\.[a-f0-9]+)?$",
