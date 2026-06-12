@@ -166,13 +166,14 @@
                 {
                     "type": "git",
                     "url": "https://github.com/xiaoyifang/goldendict-ng.git",
-                    "commit": "dfaa179b9537cd2b0ac7e2b1573598c8560b0035",
+                    "commit": "f21b03390771b7482a367c3e62b82946b2dffd6d",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d\\.]+)(?:[-_]Release\\.[a-f0-9]+)?$",
                         "is-main-source": true,
                         "version-scheme": "semantic"
-                    }
+                    },
+                    "tag": "v26.6.0"
                 }
             ]
         }
