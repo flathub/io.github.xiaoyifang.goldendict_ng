@@ -112,8 +112,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/openzim/libzim.git",
-                    "tag": "9.7.0",
-                    "commit": "92bf64eb9c79fa44d9baeeb80786d2ae3775fce7",
+                    "tag": "9.8.0",
+                    "commit": "9f9ae88149ad057f5b9233e33ddc5f0d38a3adb9",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 20193,
