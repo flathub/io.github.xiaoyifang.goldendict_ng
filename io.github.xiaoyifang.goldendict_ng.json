@@ -85,8 +85,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://oligarchy.co.uk/xapian/2.0.0/xapian-core-2.0.0.tar.xz",
-                    "sha256": "6cea3f49952a47224439a40bdb3608f928d121ad8721b9921cc42802d548ecf8",
+                    "url": "https://oligarchy.co.uk/xapian/2.1.0/xapian-core-2.1.0.tar.xz",
+                    "sha256": "8e1259586d342e3d12b5e1f772e9185a10f2ba16e541566b5c3c239f71b8aacc",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 15919,
@@ -112,8 +112,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/openzim/libzim.git",
-                    "tag": "9.8.1",
-                    "commit": "351df21b348fdafe6566a472a0d9bf8d965bde48",
+                    "tag": "9.8.2",
+                    "commit": "26ec526f74e8342a40da5ab14e364546988e0e1a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 20193,
