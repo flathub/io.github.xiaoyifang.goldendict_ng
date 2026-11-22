@@ -135,8 +135,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/marzer/tomlplusplus.git",
-                    "tag": "v3.4.0",
-                    "commit": "30172438cee64926dc41fdd9c11fb3ba5b2ba9de",
+                    "tag": "v3.5.0",
+                    "commit": "32908904d5032b5023da2bc2cefeda81733ebc24",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$",
